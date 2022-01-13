@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+.center{
+    text-align: center;
+}
+nav{
+    margin-bottom: 91px;
+}
+nav img{
+        border-radius: 50%;
+      
+}
+ul{
+    text-align: right;
+    margin-top: -15px;
+    overflow: hidden;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+li a{
+    color: #000;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size:14px;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.up{
+    display: inline;
+    height: 24px;
+    width: 106px;
+    padding-right: 15px;
+}
+.up2{
+    display: inline-block;
+    padding-top: 25px;
+}
+.bar{
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+  }
+  .bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+  .bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+  }
+  .searchbar{
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+    
+  }
+  .voice{
+    height:20px;
+    position:relative;
+    top:5px;
+    left:10px;
+  }
+  .buttons{
+    margin-top:30px;
+    text-align: center;
+  }
+  .button{
+    background-color: #f5f5f5;
+    border:none;
+    color:#707070;
+    font-size:15px;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+    
+  }
+  .button:hover{
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color:#808080;
+  }
+  .button:focus{
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+  }
+  footer{
+      background-color: rgb(216, 206, 206);
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+  }
+  .leftul{
+      text-align: left;
+      display: inline;
+      padding-left: 150px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #70757a;
+
+  }
+  .rightul{      
+      text-align: right;
+      display: inline;
+      padding-left: 100px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #70757a;
+  }/*
+  .offered{
+      width: auto;
+      height: 253px;
+  }*/
